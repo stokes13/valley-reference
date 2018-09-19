@@ -1,0 +1,133 @@
+body {
+	background-color: bisque;
+	font-family: Gloria Hallelujah, cursive;	
+}
+
+li {
+	list-style: none;	
+}
+
+a{
+	color: maroon;
+}
+
+a:link{
+	color: maroon;
+}
+
+a:visited{
+	color:maroon;
+}
+
+a:active{
+	color:maroon;
+}
+
+#navbar{
+
+}
+
+#headline {
+	font-family: lora, serif;
+	color: rebeccapurple;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.banner {
+	color: maroon;
+	height: 100%;
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+#phoenix {	
+	position: relative;	
+}
+/* set opacity for background images */
+#phoenix:after {
+	content: '';
+	background-image: url("http://www.luxurymeetingssummit.com/wp-content/uploads/2017/01/Phoenix-AZ-768x480.jpg");
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+	opacity: 0.50;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#tempe {
+	position: relative;
+	
+}
+/* set opacity for background images */
+#tempe:after {
+	content: '';
+	background: url("https://www.findrentals.com/vacations/travel-news/241/tempe.jpg");
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+	opacity: 0.50;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#scottsdale {
+	position: relative;
+	
+}
+/* set opacity for background images */
+#scottsdale:after {
+	content: '';
+	background: url("https://res.cloudinary.com/simpleview/image/fetch/c_fill,f_auto,h_302,q_75,w_452/https://res.cloudinary.com/simpleview/image/upload/crm/scottsdale/Main-Street-Galleries-10-8e0f46305056b3a_8e0f4824-5056-b3a8-49577c01588a2e6d.gif");
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	opacity: 0.50;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#glendale {
+	position: relative;
+}
+/* set opacity for background images */
+#glendale:after {
+	content: '';
+	background: url("https://assets.hospitalityonline.com/photos/employers/222152/646441_l.jpg");
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	opacity: 0.50;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#activities {
+	font-family: lora, serif;
+	color: rebeccapurple;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+
